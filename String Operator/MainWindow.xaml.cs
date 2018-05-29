@@ -24,5 +24,10 @@ namespace String_Operator
         {
             InitializeComponent();
         }
+
+        private void btnOperate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
