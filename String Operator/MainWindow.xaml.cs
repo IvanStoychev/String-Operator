@@ -27,7 +27,7 @@ namespace String_Operator
 
         private void btnOperate_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }
