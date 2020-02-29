@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace String_Operator
+namespace Frontend
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,11 +23,6 @@ namespace String_Operator
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnOperate_Click(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }

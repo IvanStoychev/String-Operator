@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace String_Operator
+namespace Frontend
 {
     /// <summary>
     /// Interaction logic for App.xaml
