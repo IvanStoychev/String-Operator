@@ -1,7 +1,3 @@
-* [**{methodName}**({formattedParameters})]({anchorUrl})
-
-***
-
 ### {methodName}({plainParameters})
 _Introduced in version {packageVersion}_
 
