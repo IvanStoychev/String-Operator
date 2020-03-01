@@ -1,0 +1,1 @@
+{profileUrl}/{repoName}/wiki/{pageName}#{methodName}{anchorLinkParameters}
