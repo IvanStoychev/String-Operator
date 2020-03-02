@@ -1,4 +1,4 @@
-### {methodName}({plainParameters})
+### {methodName}({formattedParameters})
 _Introduced in version {packageVersion}_
 
 <br/>{description}
