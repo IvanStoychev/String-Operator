@@ -4,4 +4,3 @@ _Introduced in version {packageVersion}_
 <br/>{description}
 
 <br/>
-
