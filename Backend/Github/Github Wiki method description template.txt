@@ -1,4 +1,4 @@
-### {methodName}({formattedParameters})
+### {methodName} ({formattedParameters}) <a name="{anchorUrl}"/>
 _Introduced in version {packageVersion}_
 
 <br/>{description}

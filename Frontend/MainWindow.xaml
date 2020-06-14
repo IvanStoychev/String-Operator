@@ -18,8 +18,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox Text="{Binding Output}" Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <TextBox BorderBrush="Black" BorderThickness="2" Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Grid.Row="0" Grid.Column="0" Margin="5"/>
+        <TextBox BorderBrush="Black" BorderThickness="2" Text="{Binding Output}" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Grid.Row="0" Grid.Column="1" Margin="5"/>
         <Button Grid.Column="0" Grid.ColumnSpan="23" Grid.Row="1" Content="Execute" Command="{Binding ExecuteCommand}"/>
     </Grid>
 </Window>
