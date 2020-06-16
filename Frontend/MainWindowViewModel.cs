@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using System.Windows;
 
 namespace Frontend
 {
     class MainWindowViewModel : INotifyPropertyChanged
     {
-        private string output;
+        private FrameworkElement currentControlView;
 
-        public string Output
+        public FrameworkElement CurrentControlView
         {
-            get => output;
+            get => currentControlView;
             set
             {
-                if (output != value)
+                if (currentControlView != value)
                 {
-                    output = value;
-                    OnPropertyChanged("Output");
+                    currentControlView = value;
+                    OnPropertyChanged("CurrentControlView");
                 }
             }
         }
